@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Dealing India</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_sell">Sell</string>
+    <string name="title_activity_product_details">ProductDetails</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_my_shop">MyShop</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_edit_profile">EditProfile</string>
+    <string name="search_menu_string">Search</string>
+    <string name="searchable_label">Searchable</string>
+    <string name="searchable_hint">Search...</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+
+    <!-- URL RESOURCES FILES -->
+    <string name="LoginPageURL">http://www.dealingindia.com/apk/LoginPage.php</string>
+    <string name="SignupPageURL">http://www.dealingindia.com/apk/SignupPage.php</string>
+    <string name="HomePageURL">http://www.dealingindia.com/apk/HomePage.php</string>
+    <string name="ProductPageURL">http://www.dealingindia.com/apk/ProductPage.php</string>
+    <string name="SellerDashboardURL">http://www.dealingindia.com/apk/SellerDashboard.php</string>
+    <string name="SearchResultsURL">http://www.dealingindia.com/apk/SearchPage.php</string>
+    <string name="VirtualShopUpdaterURL">http://www.dealingindia.com/apk/VirtualShopUpdater.php</string>
+    <string name="VirtualShopReceiverURL">http://www.dealingindia.com/apk/VirtualShopReceiver.php</string>
+
+</resources>

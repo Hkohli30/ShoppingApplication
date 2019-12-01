@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView
+    android:layout_height="160dp"
+    android:layout_width="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginBottom="5dp"
+    android:scrollbars="horizontal"
+    >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        >
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/l"
+            android:id="@+id/sample_imageview"
+            android:layout_marginRight="5dp"
+            android:scaleType="fitXY"
+            />
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/l"
+            android:layout_marginRight="5dp"
+            android:scaleType="fitXY"
+            />
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/l"
+            android:scaleType="fitXY"
+            android:layout_marginRight="5dp"
+            />
+
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/l"
+            android:scaleType="fitXY"
+            android:layout_marginRight="5dp"
+            />
+
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/l"
+            android:scaleType="fitXY"
+            android:layout_marginRight="5dp"
+            />
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/l"
+            android:scaleType="fitXY"
+            android:layout_marginRight="5dp"
+            />
+        <include layout="@layout/main_page_shop_layout"
+            android:layout_height="match_parent"
+            android:layout_width="160dp"
+            />
+    </LinearLayout>
+
+</HorizontalScrollView>

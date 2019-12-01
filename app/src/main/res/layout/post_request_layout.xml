@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter email"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="3dp"
+        android:id="@+id/post_request_email"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Mobile No."
+        android:inputType="number"
+        android:maxLength="10"
+        android:id="@+id/post_request_number"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Describe your Product"
+        android:gravity="top|left"
+        android:inputType="textMultiLine"
+        android:lines="2"
+        android:minLines="2"
+        android:maxLines="2"
+        android:scrollbars="vertical"
+        android:id="@+id/post_request_descp"
+        />
+
+
+</LinearLayout>

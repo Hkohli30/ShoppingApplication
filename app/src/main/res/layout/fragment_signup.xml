@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hkohli.shoppingapplication.SignupFragment"
+    android:layout_marginTop="30dp"
+    android:orientation="vertical"
+    android:padding="5dp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:hint="Enter Email"
+        android:background="@color/colorPrimary"
+        android:padding="3dp"
+        android:layout_marginBottom="7dp"
+        android:id="@+id/signup_fragment_email"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:background="@color/colorPrimary"
+        android:padding="3dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/signup_fragment_password"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm Password"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:hint="Enter Password"
+        android:background="@color/colorPrimary"
+        android:padding="3dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/signup_fragment_cpassword"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mobile No."
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:hint="Enter Mobile"
+        android:inputType="number"
+        android:maxLength="12"
+        android:background="@color/colorPrimary"
+        android:padding="3dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/signup_fragment_mobile"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:background="@color/colorAccent"
+        android:textColor="#fff"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/signup_fragment_signupButton"
+        />
+
+</LinearLayout>

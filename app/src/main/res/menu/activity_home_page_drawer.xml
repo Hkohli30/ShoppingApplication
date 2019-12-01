@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_my_shop"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="My Shop" />
+        <item
+            android:id="@+id/nav_enquiries"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Enquiries" />
+        <item
+            android:id="@+id/nav_shop_setup"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Set Your Virtual Shop" />
+        <item
+            android:id="@+id/nav_favourite"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Favourites" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="My Profile"
+            />
+    </group>
+
+    <item android:title="Help">
+        <menu>
+            <item
+                android:id="@+id/nav_buy"
+                android:icon="@drawable/ic_menu_share"
+                android:title="How To Buy" />
+            <item
+                android:id="@+id/nav_sell"
+                android:icon="@drawable/ic_menu_send"
+                android:title="How To Sell" />
+        </menu>
+    </item>
+
+</menu>
