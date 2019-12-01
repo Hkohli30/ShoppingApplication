@@ -1,1 +1,1 @@
-"# ShoppingApplication" 
+Shopping Application is an android application designed as a freelancing project. It uses PHP for the server side communicaitons with single and nested JSONObjects and JSONArrays. Designed using Android UI/UX package with multiusable server communication programs.
